@@ -35,7 +35,7 @@ const Wrapper = styled.div`
   display: flex;
 `;
 const Slide = styled.div`
-  display: ${(props) => (props.muestra === "active" ? "flex" : "none")};
+  display: ${(props) => (props.display === "active" ? "flex" : "none")};
   align-items: center;
   width: 100vw;
   height: 100vh;
@@ -92,7 +92,7 @@ const Slider = () => {
         <Wrapper key={index}>
           <Slide
             bg={item.bg}
-            muestra={index === current ? "active" : "inactive"}
+            display={index === current ? "active" : "inactive"}
           >
             {index === current && (
               <>
