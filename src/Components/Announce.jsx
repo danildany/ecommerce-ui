@@ -3,7 +3,7 @@ import React from "react";
 
 const Container = styled.div`
   height: 30px;
-  background-color: teal;
+  background-color: #58044a;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ const Container = styled.div`
 const Announce = () => {
   return (
     <Container>
-      <h2>2 kilos de salamin /400$</h2>
+      <h2>Super Deal! Free Shipping on Orders Over $50</h2>
     </Container>
   );
 };

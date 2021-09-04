@@ -4,10 +4,11 @@ import React from "react";
 import styled from "styled-components";
 const Container = styled.div`
   height: 60px;
-  *background-color: #000;
+  background-color: #000;
+  color: #fff;
 `;
 const Wrapper = styled.div`
-  padding: 5px 20px;
+  padding: 0px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,12 +39,17 @@ const SearchContainer = styled.div`
   align-items: center;
   margin-left: 25px;
   padding: 5px;
+  background-color: #fff;
+  color: #000;
 `;
 const Input = styled.input`
   border: none;
 `;
 const Logo = styled.h1`
+  margin: 10px;
   font-weight: bold;
+  color: #00ff40;
+  font-family: "Stalinist One", cursive;
 `;
 const MenuItem = styled.div`
   font-size: 14px;
@@ -62,7 +68,7 @@ function Navbar() {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Ecommerce</Logo>
+          <Logo>SPORTIA</Logo>
         </Center>
         <Right>
           <MenuItem>register</MenuItem>

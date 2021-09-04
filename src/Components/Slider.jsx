@@ -39,7 +39,8 @@ const Slide = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: ${(props) => props.bg};
+  background-color: #${(props) => props.bg};
+  color: #fff7f7;
 `;
 const ImageContainer = styled.div`
   height: 100%;
@@ -47,7 +48,6 @@ const ImageContainer = styled.div`
 `;
 const Image = styled.img`
   height: 80%;
-  transform: translateX(200px);
 `;
 const InfoContainer = styled.div`
   flex: 1;
@@ -64,7 +64,7 @@ const Desc = styled.p`
 const Button = styled.button`
   padding: 10px;
   font-size: 20px;
-  background-color: transparent;
+  background-color: #fff7f7;
   cursor: pointer;
 `;
 
