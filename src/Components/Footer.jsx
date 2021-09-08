@@ -131,7 +131,7 @@ const Footer = () => {
           Tobinchester 98336
         </ContactItem>
         <ContactItem>
-          <Phone style={{ marginRight: "10px" }} /> +555 
+          <Phone style={{ marginRight: "10px" }} /> +555
         </ContactItem>
         <ContactItem>
           <MailOutline style={{ marginRight: "10px" }} /> contact@ecommerce.dev
