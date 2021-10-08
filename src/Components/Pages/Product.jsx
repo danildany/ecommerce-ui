@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Add, Remove } from "@material-ui/icons";
 import styled from "styled-components";
-import Announce from "../components/Announce";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import Newsletter from "../components/Newsletter";
-import { mobile } from "../responsive";
+import Announce from "../Announce";
+import Footer from "../Footer";
+import Navbar from "../Navbar";
+import Newsletter from "../Newsletter";
+import { mobile } from "../../responsive";
 
 const Container = styled.div``;
 

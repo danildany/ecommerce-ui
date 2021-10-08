@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Navbar from "../components/Navbar";
-import Announce from "../components/Announce";
-import Products from "../components/Products";
-import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
-import { mobile } from "../responsive";
+import Navbar from "../Navbar";
+import Announce from "../Announce";
+import Products from "../Products";
+import Newsletter from "../Newsletter";
+import Footer from "../Footer";
+import { mobile } from "../../responsive";
 
 const Container = styled.div``;
 
